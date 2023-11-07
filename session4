@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Session 4</title>
+    </head>
+    <body>
+        <!--Latihan Tag div-->
+        <div class="header">
+           <h1>SELAMAT DATANG DI WEBKU</h1>
+        </div>
+        <div class="navigasi">
+           <a href=“#”> HOME </a>
+           <a href=“#”> PROFIL </a>
+           <a href=“#”> CONTACT </a>
+        </div>
+        <div class="main">
+           <p>Bagian ini adalah isi Web</p> </br>
+          <!--Latihan Tag Span yang didalam tag p-->
+           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <span> labore et dolore </span> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
+           <img src=“poster.png”>
+        </div>
+        <div class="footer">
+           <p>copyright © 2021 Web Programming UNIPMA </p>
+        </div> 
+		<hr>
+ <!--Latihan Semantic HTML-->
+        <div id="header"></div>
+        <div id=”sidebar”></div>
+        <div id="content">
+          <div class="post"></div>
+        </div>
+ 
+        
+    </body>
+	<hr>
+<!--PRAKTIKUM 4-->
+        <nav>
+           <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#pengertian">Pengertian</a></li>
+               <li><a href="#kesimpulan">Kesimpulan</a></li>
+           </ul>
+        </nav>
+        <section>
+           Konten
+        </section>
+        <footer>
+           Copyright
+        </footer>
+</html>
