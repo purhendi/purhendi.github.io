@@ -1,0 +1,43 @@
+<html>  
+<head>     
+<title>Praktikum 5 Form HTML</title> 
+  </head>  
+ <body>
+     <!--Latihan Tag Form-->   
+  <form action="" method="POST">  
+     <!--Latihan Input Text-->  
+     Akun: <input type="text" name="akun" value="Akun Kamu"/> 
+      <br>   
+    <br>   
+    <!--Latihan Input Password-->  
+     Password: <input type="password" name="password" value="Password Akun Kamu"/>    
+   <br>    
+   <br>    
+   <!--Latihan Input Checkbox-->   
+    Hobi : <input type="checkbox" name="hobi_baca"/> Membaca Buku       
+       <input type="checkbox" name="hobi_tulis"/> Menulis Buku 
+      <br>  
+     <br>     
+  <!--Latihan Input Radio-->       Jenis Kelamin : <input type="radio" name="gender_laki"/> Laki-Laki 
+                      <input type="radio" name="gender_wanita"/> Perempuan  
+     <br>     
+  <br>   
+    <!--Latihan Text Area-->   
+    <textarea rows="5" cols="20">     
+    Text Diisi sebanyak 5 baris 
+      </textarea>  
+     <br>   
+    <br>  
+     <!--Latihan Tag Select-->     
+  <select>   
+      <option>Pilihan1</option>       
+  <option>Pilihan2</option>     
+  </select>   
+    <br>  
+     <br>   
+    <!--Latihan Input Submit-->     
+   <input type="submit" value="Submit"> 
+    </form> 
+  </body>
+ </html>
+
